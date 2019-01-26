@@ -1,0 +1,19 @@
+= Spring Cloud Streamの（軽い）ハンズオン
+
+== このリポジトリは何？
+https://docs.sprinag.io/spring-cloud-stream/docs/current/reference/htmlsingle/[Spring Cloud Stream] を体験できるハンズオンです。10分くらいでできます。
+
+== 各プロジェクトの説明
+* stream-source: メッセージ送信側のマイクロサービスです。
+* stream-source-sample: stream-sourceの完成例です。
+* stream-sink: メッセージ受信側のマイクロサービスです。
+* stream-sink-sample: stream-sinkの完成例です。
+
+== 必要な環境
+* JDK 11
+* Maven
+* https://www.rabbitmq.com/download.html[RabbitMQ] or https://www.docker.com/products/docker-desktop[Docker]
+** Dockerを利用している場合は、 link:docker-run-rabbitmq.sh[docker-run-rabbitmq.sh] だけでRabbitMQを起動できます
+
+== ハンズオンの進め方
+各ファイルにTODOが書いてあるので、それを元に進めてください。TODOはIntelliJ IDEAなどのIDEで一覧すると良いでしょう。
