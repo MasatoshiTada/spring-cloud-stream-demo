@@ -17,3 +17,7 @@ https://docs.sprinag.io/spring-cloud-stream/docs/current/reference/htmlsingle/[S
 
 == ハンズオンの進め方
 各ファイルにTODOが書いてあるので、それを元に進めてください。TODOはIntelliJ IDEAなどのIDEで一覧すると良いでしょう。
+
+== Spring Cloud Streamをもっと知りたい場合は
+* https://www.slideshare.net/makingx/event-driven-microservices-with-spring-cloud-stream-jjugccc-ccca3[Event Driven Microservices with Spring Cloud Stream #jjug_ccc #ccc_ab3]
+** 少し前の資料ですが、基本的な部分は変わっていません
